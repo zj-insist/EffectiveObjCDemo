@@ -36,6 +36,8 @@
     return YES;
 }
 
+
+
 void autoSetter(id self,SEL _cmd,id value) {
     EOCAutoDictionary *dic = (EOCAutoDictionary *)self;
     NSMutableArray *store = dic.store;

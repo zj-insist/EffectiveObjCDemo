@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Person : NSObject
+@interface Person : NSObject<NSCopying>
 @property(nonatomic, copy) NSString *firstName;
 @property(nonatomic, copy) NSString *lastName;
 @property(nonatomic, assign) NSInteger age;

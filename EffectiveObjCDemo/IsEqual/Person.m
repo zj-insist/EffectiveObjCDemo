@@ -25,6 +25,14 @@
     return [_firstName hash] ^ [_lastName hash] ^ _age;
 }
 
+- (id)copyWithZone:(NSZone *)zone {
+    Person *newPerson = [[self class] allocWithZone:zone];
+    newPerson.lastName = [_lastName copy];
+    newPerson.firstName = [_firstName copy];
+    newPerson.age = _age;
+    
+    return newPerson;
+}
 
 
 @end
