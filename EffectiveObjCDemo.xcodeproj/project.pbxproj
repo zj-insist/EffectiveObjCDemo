@@ -11,6 +11,7 @@
 		1887723C2022EA8F00FAE06A /* Mammal.m in Sources */ = {isa = PBXBuildFile; fileRef = 1887723B2022EA8F00FAE06A /* Mammal.m */; };
 		1887723F2022EACC00FAE06A /* Whale.m in Sources */ = {isa = PBXBuildFile; fileRef = 1887723E2022EACC00FAE06A /* Whale.m */; };
 		188772422022EC0500FAE06A /* Desinated.m in Sources */ = {isa = PBXBuildFile; fileRef = 188772412022EC0500FAE06A /* Desinated.m */; };
+		188772462023192C00FAE06A /* PreferDelegateClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 188772452023192C00FAE06A /* PreferDelegateClass.m */; };
 		188AB7132021A7B5008B6128 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188AB7122021A7B5008B6128 /* main.m */; };
 		188AB71B2021A7DE008B6128 /* PracticeClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 188AB71A2021A7DE008B6128 /* PracticeClass.m */; };
 		188AB71E2021A978008B6128 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 188AB71D2021A978008B6128 /* Person.m */; };
@@ -38,6 +39,8 @@
 		1887723E2022EACC00FAE06A /* Whale.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Whale.m; sourceTree = "<group>"; };
 		188772402022EC0500FAE06A /* Desinated.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Desinated.h; sourceTree = "<group>"; };
 		188772412022EC0500FAE06A /* Desinated.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Desinated.m; sourceTree = "<group>"; };
+		188772442023192C00FAE06A /* PreferDelegateClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreferDelegateClass.h; sourceTree = "<group>"; };
+		188772452023192C00FAE06A /* PreferDelegateClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PreferDelegateClass.m; sourceTree = "<group>"; };
 		188AB70F2021A7B5008B6128 /* EffectiveObjCDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EffectiveObjCDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		188AB7122021A7B5008B6128 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		188AB7192021A7DE008B6128 /* PracticeClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PracticeClass.h; sourceTree = "<group>"; };
@@ -92,6 +95,15 @@
 			path = Designated;
 			sourceTree = "<group>";
 		};
+		18877243202318E800FAE06A /* PreferDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				188772442023192C00FAE06A /* PreferDelegateClass.h */,
+				188772452023192C00FAE06A /* PreferDelegateClass.m */,
+			);
+			path = PreferDelegate;
+			sourceTree = "<group>";
+		};
 		188AB7062021A7B5008B6128 = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +126,7 @@
 				188AB7122021A7B5008B6128 /* main.m */,
 				188AB7192021A7DE008B6128 /* PracticeClass.h */,
 				188AB71A2021A7DE008B6128 /* PracticeClass.m */,
+				18877243202318E800FAE06A /* PreferDelegate */,
 				188772362022EA3700FAE06A /* Designated */,
 				188772352022E87100FAE06A /* IsEqual */,
 				188772342022E85900FAE06A /* MessageSend */,
@@ -184,6 +197,7 @@
 				188AB71E2021A978008B6128 /* Person.m in Sources */,
 				188772392022EA4300FAE06A /* Animal.m in Sources */,
 				188AB7132021A7B5008B6128 /* main.m in Sources */,
+				188772462023192C00FAE06A /* PreferDelegateClass.m in Sources */,
 				188AB71B2021A7DE008B6128 /* PracticeClass.m in Sources */,
 				188772422022EC0500FAE06A /* Desinated.m in Sources */,
 			);
