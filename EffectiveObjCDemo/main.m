@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Whale.h"
+#import "GCDDemo.h"
 
 void designatedTest() {
     //        NSLog(@"Hello, World!");
@@ -32,7 +33,9 @@ int main(int argc, const char * argv[]) {
         // insert code here...
         NSLog(@"Hello, World!");
         
-        designatedTest();
+//        designatedTest();
+        GCDDemo *demo = [GCDDemo new];
+        [demo applyTest];
     }
     return 0;
 }

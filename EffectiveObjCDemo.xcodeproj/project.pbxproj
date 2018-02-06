@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1848E8D520299B15006960C6 /* GCDDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1848E8D420299B15006960C6 /* GCDDemo.m */; };
+		1848E8D92029CDFE006960C6 /* NSCacheDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1848E8D82029CDFE006960C6 /* NSCacheDemo.m */; };
+		1848E8DD2029DDD7006960C6 /* NSTimer+EOCBlocksSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 1848E8DC2029DDD7006960C6 /* NSTimer+EOCBlocksSupport.m */; };
 		188772392022EA4300FAE06A /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 188772382022EA4300FAE06A /* Animal.m */; };
 		1887723C2022EA8F00FAE06A /* Mammal.m in Sources */ = {isa = PBXBuildFile; fileRef = 1887723B2022EA8F00FAE06A /* Mammal.m */; };
 		1887723F2022EACC00FAE06A /* Whale.m in Sources */ = {isa = PBXBuildFile; fileRef = 1887723E2022EACC00FAE06A /* Whale.m */; };
@@ -31,6 +34,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1848E8D320299B15006960C6 /* GCDDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDDemo.h; sourceTree = "<group>"; };
+		1848E8D420299B15006960C6 /* GCDDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDDemo.m; sourceTree = "<group>"; };
+		1848E8D72029CDFE006960C6 /* NSCacheDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSCacheDemo.h; sourceTree = "<group>"; };
+		1848E8D82029CDFE006960C6 /* NSCacheDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSCacheDemo.m; sourceTree = "<group>"; };
+		1848E8DB2029DDD7006960C6 /* NSTimer+EOCBlocksSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+EOCBlocksSupport.h"; sourceTree = "<group>"; };
+		1848E8DC2029DDD7006960C6 /* NSTimer+EOCBlocksSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+EOCBlocksSupport.m"; sourceTree = "<group>"; };
 		188772372022EA4300FAE06A /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
 		188772382022EA4300FAE06A /* Animal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
 		1887723A2022EA8F00FAE06A /* Mammal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mammal.h; sourceTree = "<group>"; };
@@ -62,6 +71,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1848E8D220299B02006960C6 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				1848E8D320299B15006960C6 /* GCDDemo.h */,
+				1848E8D420299B15006960C6 /* GCDDemo.m */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
+		1848E8D62029CDE3006960C6 /* NSCache */ = {
+			isa = PBXGroup;
+			children = (
+				1848E8D72029CDFE006960C6 /* NSCacheDemo.h */,
+				1848E8D82029CDFE006960C6 /* NSCacheDemo.m */,
+			);
+			path = NSCache;
+			sourceTree = "<group>";
+		};
+		1848E8DA2029DDBA006960C6 /* NSTimer */ = {
+			isa = PBXGroup;
+			children = (
+				1848E8DB2029DDD7006960C6 /* NSTimer+EOCBlocksSupport.h */,
+				1848E8DC2029DDD7006960C6 /* NSTimer+EOCBlocksSupport.m */,
+			);
+			path = NSTimer;
+			sourceTree = "<group>";
+		};
 		188772342022E85900FAE06A /* MessageSend */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +162,9 @@
 				188AB7122021A7B5008B6128 /* main.m */,
 				188AB7192021A7DE008B6128 /* PracticeClass.h */,
 				188AB71A2021A7DE008B6128 /* PracticeClass.m */,
+				1848E8DA2029DDBA006960C6 /* NSTimer */,
+				1848E8D62029CDE3006960C6 /* NSCache */,
+				1848E8D220299B02006960C6 /* GCD */,
 				18877243202318E800FAE06A /* PreferDelegate */,
 				188772362022EA3700FAE06A /* Designated */,
 				188772352022E87100FAE06A /* IsEqual */,
@@ -193,7 +232,10 @@
 			files = (
 				1887723C2022EA8F00FAE06A /* Mammal.m in Sources */,
 				188AB7212021D7B5008B6128 /* EOCAutoDictionary.m in Sources */,
+				1848E8D92029CDFE006960C6 /* NSCacheDemo.m in Sources */,
 				1887723F2022EACC00FAE06A /* Whale.m in Sources */,
+				1848E8DD2029DDD7006960C6 /* NSTimer+EOCBlocksSupport.m in Sources */,
+				1848E8D520299B15006960C6 /* GCDDemo.m in Sources */,
 				188AB71E2021A978008B6128 /* Person.m in Sources */,
 				188772392022EA4300FAE06A /* Animal.m in Sources */,
 				188AB7132021A7B5008B6128 /* main.m in Sources */,

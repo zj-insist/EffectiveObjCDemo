@@ -24,12 +24,10 @@
 - (void)setDelegate:(id<PreferDelegate>)delegate {
     _delegate = delegate;
     
-    __unsafe_unretained
-    
-    _delegateFlags.methodA = [delegate respondsToSelector:@selector(delegateMethodA)];
-    _delegateFlags.methodB = [delegate respondsToSelector:@selector(delegateMethodB)];
-    _delegateFlags.methodC = [delegate respondsToSelector:@selector(delegateMethodC)];
-    
+    //OSX 下没有respondsToSelector方法
+//    _delegateFlags.methodA = [delegate respondsToSelector:@selector(delegateMethodA)];
+//    _delegateFlags.methodB = [delegate respondsToSelector:@selector(delegateMethodB)];
+//    _delegateFlags.methodC = [delegate respondsToSelector:@selector(delegateMethodC)];
 }
 
 - (void)callMethodA {
